@@ -1,8 +1,6 @@
 CHARACTERS_IN_ALPHABET = 26
 
 def encrypt(orig_massage, shift_amount):
-
-
     """
     Encrypt string plaintext using a Caesar cipher by shift_amount
     :param plaintext: the string to encrypt
@@ -31,8 +29,6 @@ def encrypt(orig_massage, shift_amount):
     # print(f"Encrypted message: {shifted_letters}")
 
 def decrypt(ciphertext, shift_amount):
-
-
     """
     Decrypts string ciphertext using a Caesar cipher when the original shift was shift_amount
     Assumption: ciphertext will be in lowercase
