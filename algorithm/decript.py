@@ -15,7 +15,7 @@ def decrypt(ciphertext):
         print(decrypted_letters)
 
 
-if __name__ == "__main__":
-    decrypt("itgcvlqd")
-    decrypt("fbjxtrj")
-    decrypt("tcxlsr")
+
+decrypt("itgcvlqd")
+decrypt("fbjxtrj")
+decrypt("tcxlsr")
